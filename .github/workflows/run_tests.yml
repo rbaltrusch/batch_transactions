@@ -1,0 +1,19 @@
+name: Tests
+
+# Controls when the workflow will run
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+          repository: rbaltrusch/batch_transactions
+          path: batch_transactions
+      - name: Run tests
+        shell: cmd
+        run: |
+          call "batch_transactions/tests/run_tests.bat"
