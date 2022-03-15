@@ -26,6 +26,10 @@ This repository has two prime dependencies, both of which are added as git submo
 - objectbatch (OOP framework for batch scripts)
 - batest (unit test framework for batch scripts)
 
+## Python implementation
+
+The functionality present in the main.bat file was also implemented in an equivalent [main.py](https://github.com/rbaltrusch/batch_transactions/blob/master/src/main.py) file, primarily to showcase the differences and similarities between the batch OOP and the python OOP approaches.
+
 ## License
 
 This repository is licensed as open-source software under the [MIT License](https://github.com/rbaltrusch/batch_transactions/blob/master/LICENSE).
