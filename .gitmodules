@@ -1,0 +1,6 @@
+[submodule "objectbatch"]
+	path = objectbatch
+	url = https://github.com/rbaltrusch/objectbatch
+[submodule "batest"]
+	path = batest
+	url = https://github.com/rbaltrusch/batest
