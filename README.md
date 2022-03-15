@@ -1,3 +1,6 @@
+[![Run Tests](https://github.com/rbaltrusch/batch_transactions/actions/workflows/run_tests.yml/badge.svg)](https://github.com/rbaltrusch/batch_transactions/actions/workflows/run_tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+
 # Batch transaction management system
 
 An object-oriented transaction management system written in MSDOS Batch to test out the object-oriented capabilities of the [objectbatch](https://github.com/rbaltrusch/objectbatch) framework.
