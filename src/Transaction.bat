@@ -12,6 +12,6 @@ exit /b
     set %self%.sender=%~3
     set %self%.receiver=%~4
 
-    call strip_zeros number %~5
+    call util/strip_zeros number %~5
     set /a %self%.amount=%number%
 exit /b

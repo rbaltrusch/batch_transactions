@@ -1,7 +1,7 @@
 ::Instantiate array of 10 elements, pick a random one, then assert that the picked element is in array
 
 for /L %%i in (0 1 10) do set array[%%i]=%%i%%i
-call randomchoice array element
+call util/randomchoice array element
 
 setlocal enabledelayedexpansion
 set passed=false

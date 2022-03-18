@@ -29,7 +29,7 @@ for %%s in ("carl","simon","paul","john","jake","robert") do (
 
     ::determine input arguments
     set sender=%%s
-    call randomchoice receivers receiver
+    call util/randomchoice receivers receiver
     set amount=!random:~1,2!
 
     ::instantiate new transaction and append it to array
