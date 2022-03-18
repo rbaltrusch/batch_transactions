@@ -5,6 +5,10 @@ set __super__=Transaction
 call class %*
 %class%
 
+:public-process
+    REM does nothing
+exit /b
+
 :public-__dict__
 	call super %*
 exit /b

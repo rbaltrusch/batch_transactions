@@ -10,9 +10,8 @@ call class %*
             if !counter! GTR 1 (
                 echo.
 
-                REM Sets the status of the current transaction to in progress
-                REM if the amount being sent is greater than 60
-                if !%%t.amount! GTR 60 set %%t.status=IN_PROGRESS
+                set transaction=%%t
+                call # transaction process
 
                 REM Save state of current object to file
                 call save __transaction_manager_output__ %%t
